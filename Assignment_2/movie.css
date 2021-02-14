@@ -1,0 +1,92 @@
+body {
+    background-image: url(https://codd.cs.gsu.edu/~lhenry23/Web/HW/Assign02/background.png);
+    
+    font-family: Verdana;
+}
+* {
+    font-size: 8pt;
+}
+#banner {
+    height: 50px;  
+    z-index: 1;
+    position: absolute;
+    
+}
+#bannerbackground {
+    width: 100%;
+    height: 50px;
+}
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+.main {
+    display: flex;
+}
+main {
+    width: 800px;
+    margin: auto;
+    border: 4px gray solid ;
+    
+}
+#review_32 {
+    font-size: 48pt; color: red; font-weight: bold; vertical-align: 10px;
+}
+#review_88 {
+    font-size: 8pt; color: white; vertical-align: 10px;
+}
+#left_review {
+    float: left;
+    width: 550px;
+
+}
+p {
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E1D697;
+    border: gray 2px solid;
+    padding: 8px;
+    clear: both;
+   
+}
+.review_p {
+    margin-top: 3em;
+}
+.general_overview {
+    width: 250px;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: Arial;
+    
+}
+dt {
+    padding-top: 1em;
+}
+dl {
+    padding-left: 10px;
+}
+.reviews{
+    display: flex;
+    column-gap: 2%;
+    row-gap: 2%;
+    margin: auto;
+}
+.page {
+    background-color: #A2B964;
+    padding: 5px;
+    
+    text-align: center;
+}
+.publication {
+    font-style: italic;
+}
+.reviewers {
+    vertical-align: -3em;
+}
+#validator {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
